@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vigichantier</title>
+	<link rel="stylesheet" type="text/css" href="styleacceuil.css">
+</head>
+<body>
+	
+
+<body>
+	
+
+	<header>
+	<style>
+		h1 {
+			text-align: center;
+			border: 2px solid black;
+			padding: 20px;
+			border-radius:80px;
+			border: 20px ridge red;
+			color:#756107;
+		}
+
+	</style>
+			<h1>Site d'informations sur le chantier Vigichantier</h1>
+
+		<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/2f/Nice_Logo.svg/1200px-Nice_Logo.svg.png" alt="Logo de la page">
+	</header>
+
+	<main>
+<style>
+
+button {
+  padding: 20px 30px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+  position: relative;
+  transition: all .2s;
+  overflow: hidden;
+  color: #F73838;
+  border-radius: 30px;
+  box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+}
+
+button::after {
+  content: '';
+  width: 1100px;
+  height: 200px;
+  position: absolute;
+   background-image: linear-gradient(90deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+	left: -300px;
+	top:5px;
+	z-index:-1;
+   }
+
+button:hover{
+ background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
+   animation:slidebg 1.5s linear infinite;
+}
+@keyframes slidebg {
+  to {
+    background-position:70vw;
+  }
+}
+
+	</style>
+
+		<button  onclick="window.location.href='test.php'">Information sur l'environnement </button>
+		<button  onclick="window.location.href='infonombredepersonne.php'">Information sur le nombre de personnes</button>
+	</main>
+</body>
+</html>

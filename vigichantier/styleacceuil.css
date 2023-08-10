@@ -1,0 +1,30 @@
+body {
+
+	background-image:url(https://www.okvoyage.com/wp-content/uploads/2009/05/nice-france-mediterranee.jpg);
+	background-repeat:repeat;
+	  height: 100vh;
+
+	background-size: cover;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	background-size: cover;
+}
+
+
+
+
+header img {
+	height: 100px;
+	
+	
+}
+
+main {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
